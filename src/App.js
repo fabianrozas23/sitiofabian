@@ -1,30 +1,47 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import 'semantic-ui-css/semantic.min.css'
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { Menu, Container, Icon } from "semantic-ui-react";
+import { Link, withRouter } from "react-router-dom";
 
-import { Button } from '@material-ui/core';
+class HeaderMenu extends Component {
+  render() {
+    const headerIcon = <Icon name={this.props.headerIcon} size="large" />;
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    let menuItems = [];
+    for (let i = 0; i < this.props.items.length; i++) {
+      if (this.props.items[i].length !== 2) {
+        console.error('HeaderMenu: items format should be ["name", "route"]');
+        break;
+      }
+      const name = this.props.items[i][0];
+      const route = this.props.items[i][1];
+      menuItems.push(
+        <Menu.Item
+          key={"item-" + i}
+          index={i}
+          as={Link}
+          to={route}
+          header={i === 0}
+          active={route === this.props.location.pathname}
         >
-          Learn React
-        </a>
-        <Button color="primary">Hello World</Button>
-      </header>
-    </div>
-  );
+          {i === 0 ? headerIcon : ""}
+          {name}
+        </Menu.Item>
+      );
+    }
+
+    return (
+      <Menu fixed="top" inverted>
+        <Container>{menuItems}</Container>
+      </Menu>
+    );
+  }
 }
 
-export default App;
+HeaderMenu.propTypes = {
+  onItemClick: PropTypes.func.isRequired,
+  headerIcon: PropTypes.string.isRequired,
+  items: PropTypes.arrayOf(PropTypes.array.isRequired).isRequired
+};
+
+export default withRouter(HeaderMenu);
