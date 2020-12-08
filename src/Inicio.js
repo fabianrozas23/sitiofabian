@@ -3,7 +3,7 @@ import yo from './imagenes/yo.png';
 
 export const Inicio = (props) => (
     <div className="App">
-    <div className="new-line"><img src={yo} alt="pic" className="line-jump"/></div>
+    <div className="new-line"><img src={yo} centered size= 'medium' className="line-jump"/></div>
     <h1 className="new-line">Bienvenidos a mi sitio web</h1>
     <div className="container">
       <p>Este es mi primer sitio web que he creado, y lo he realizado gracias a las asignaturas de Arquitectura de Software
