@@ -6,9 +6,9 @@ import Footer from "./Footer";
 import styled from "styled-components";
 import { Divider, Container } from "semantic-ui-react";
 import { Inicio } from './Inicio';
+import Validador from './Header';
 
 const Fotos = () => <h1>Fotos</h1>;
-const Validador = () => <h1>Validador</h1>;
 const Formulario = () => <h1>Formulario</h1>;
 const Rss= () => <h1>URL doesn't exist</h1>;
 
