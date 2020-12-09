@@ -8,9 +8,9 @@ import { Divider, Container } from "semantic-ui-react";
 import { Inicio } from './Inicio';
 import Validador from './Header';
 import Formulario from './Formulario';
+import { Rss } from './Rss';
 
 const Fotos = () => <h1>Fotos</h1>;
-const Rss= () => <h1>URL doesn't exist</h1>;
 
 const Wrapper = styled.div`
   display: flex;
