@@ -18,7 +18,7 @@ export default function Validador(params) {
         setClave(e.target.value);
     }
 
-     if(clave === "password") return (<p className="App-link">Contraseña Correcta!
+     if(clave === "password") return (<p className="App-link">Validado correctamente!
      <div className="new-line">
          <input type="button" value="Reiniciar Validador" className="btn" onClick={refreshPage}/>
     </div>
