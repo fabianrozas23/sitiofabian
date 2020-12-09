@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Formulario2 from './Formulario2';
-import 'index.css';
+
 
 function refreshPage() {
     window.location.reload(false);

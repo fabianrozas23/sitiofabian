@@ -1,6 +1,6 @@
 import React from 'react';
 import yo from './imagenes/yo.png';
-import 'index.css';
+
 
 export const Inicio = (props) => (
     <div className="App">

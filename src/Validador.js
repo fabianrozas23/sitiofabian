@@ -1,6 +1,6 @@
 import React from 'react';
 import { validate } from "./rut";
-import 'index.css';
+
 
 function refreshPage() {
     window.location.reload(false);
