@@ -9,8 +9,7 @@ import { Inicio } from './Inicio';
 import Validador from './Header';
 import Formulario from './Formulario';
 import { Rss } from './Rss';
-
-const Fotos = () => <h1>Fotos</h1>;
+import { Curso } from './Curso';
 
 const Wrapper = styled.div`
   display: flex;
@@ -31,7 +30,7 @@ ReactDOM.render(
           ["Inicio", "/"],
           ["Validador", "/Validador"],
           ["Formulario", "/Formulario"],
-          ["Fotos", "/Fotos"],
+          ["Curso", "/Curso"],
           ["Redes sociales", "/Rss"]
         ]}
         headerIcon={"compass outline"}
@@ -42,7 +41,7 @@ ReactDOM.render(
           <Route path="/" exact component={Inicio} />
           <Route path="/Validador" component={Validador} />
           <Route path="/Formulario" component={Formulario} />
-          <Route path="/Fotos" component={Fotos} />
+          <Route path="/Curso" component={Curso} />
           <Route component={Rss} />
         </Switch>
       </Content>

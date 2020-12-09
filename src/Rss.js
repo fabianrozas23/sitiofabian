@@ -20,16 +20,16 @@ export const Rss = () => (
             <a href="https://www.instagram.com/first.cam/"> <img src={instafotos} alt="Instagram fotos" height= '161'  width= '765' /></a> 
         </div>
         <div new-line>
-            <a href="https://www.facebook.com/profile.php?id=100009189151224"> <img src={face} alt="Facebook Fabián" height= '161'  width= '765' /></a> 
+            <a href="https://www.facebook.com/profile.php?id=100009189151224"> <img src={face} alt="Facebook Fabián" height= '200'  width= '765' /></a> 
         </div>
         <div new-line>
-            <a href="https://github.com/fabianrozas23"> <img src={github} alt="Github Fabián" height= '161'  width= '765' /></a> 
+            <a href="https://github.com/fabianrozas23"> <img src={github} alt="Github Fabián" height= '200'  width= '765' /></a> 
         </div>
         <div new-line>
             <a href="https://dev.azure.com/fabianrozas"> <img src={azure} alt="Azure Fabián" height= '161'  width= '765' /></a> 
         </div>
         <div new-line>
-            <a href="https://fabianrozas.me/"> <img src={curso} alt="Página del curso" height= '161'  width= '765' /></a> 
+            <a href="https://fabianrozas.me/"> <img src={curso} alt="Página del curso" height= '180'  width= '765' /></a> 
         </div>
       </div>
     </div>

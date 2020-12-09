@@ -10,7 +10,7 @@ const Formulario = () =>{
     return (
         <div className="ui fluid container">
             <br/>
-            <div><p>FORMULARIO PARA TENER REGISTRO DE SU VISITA</p></div>
+            <div><p><h1>FORMULARIO PARA TENER REGISTRO DE SU VISITA</h1></p></div>
             <div className="ui segment">
                 <div>
                     <Formulario2/>

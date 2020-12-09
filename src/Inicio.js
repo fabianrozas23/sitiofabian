@@ -3,17 +3,17 @@ import yo from './imagenes/yo.png';
 
 export const Inicio = (props) => (
     <div className="App">
-    <div ><img src={yo} alt= 'imagen del creador' height= '50%'  width= '50%'/>
+    <div ><img src={yo} alt= 'imagen del creador' height= '700'  width= '400' centered />
     </div>
     <h1 className="new-line">Bienvenidos a mi sitio web</h1>
     <div className="container">
-      <p>Este es mi primer sitio web que he creado, y lo he realizado gracias a las asignaturas de Arquitectura de Software
-            y Desarrollo Web.</p>
+        <p>Mi nombre es Fabián Andrés Rozas Alfaro, tengo 23 años y estoy estudiadno Ingenieria Civil en Informatica en la Universidad de Valpariso.
+        Me gusta escuchar música, salir con mis amigos y ver series. Me considero una persona introvertida, pero cuando me conoces soy el más 
+        simpatico del mundo :).
+        </p>
 
-        <p>Espero que con el tiempo pueda aprendar, crear e implementar de mejor manera
-            Semantic UI y todos los componentes y herramientas que ayudan a la creación y mantención
-            de un sitio web. Esta asignatura es una de mis favoritas por que puedo crear y practicar
-            para aprender cada dia mas.
+        <p>Además de la Informatica me gusta mcuho la fotagrafia. En el menú superior podrás encontrar mis redes sociales y un apartado sobre mis cursos
+            que me ayudaron a diseñar este sitio web.
         </p>
 
              <p> Gracias por la visita y espero que vuelvas pronto !!!!
