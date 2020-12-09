@@ -1,5 +1,6 @@
 import React from "react";
 import { Segment, Container, Icon } from "semantic-ui-react";
+import 'index.css';
 
 const Footer = () => (
   <Segment inverted>

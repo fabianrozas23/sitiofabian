@@ -6,6 +6,7 @@ import instafotos from './imagenes/instafotos.png';
 import github from './imagenes/github.png';
 import azure from './imagenes/azure.png';
 import curso from './imagenes/curso.png';
+import 'index.css';
 
 export const Rss = () => (
   <div className="App">
