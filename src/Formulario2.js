@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Checkbox, Form, Input, Radio, Select, TextArea } from 'semantic-ui-react'
+import './Estilo.css';
 
 const options = [
   { key: 'm', text: 'Hombre', value: 'hombre' },
@@ -71,7 +72,7 @@ class FormExampleFieldControl extends Component {
           label='Hablemos :)'
           placeholder='Cuentanos un poco sobre ti...'
         />
-    
+        <Form.Field  className="ui center aligned container" control={Button}>Enviar</Form.Field>
       </Form>
     )
   }

@@ -1,10 +1,10 @@
 import React from 'react';
 import { validate } from "./rut";
-
+import './Estilo.css';
 
 function refreshPage() {
     window.location.reload(false);
-  }
+  } 
 
 export default function Validador(params) {
 
@@ -20,8 +20,8 @@ export default function Validador(params) {
     }
 
      if(clave === "password") return (<p className="App-link">Validado correctamente!
-     <div className="new-line">
-         <input type="button" value="Reiniciar Validador" className="btn" onClick={refreshPage}/>
+      <div className="new-line">
+         <input type="button" value="Reiniciar" className="btn" onClick={refreshPage}/>
     </div>
     </p>)
 

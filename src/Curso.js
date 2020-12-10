@@ -1,6 +1,6 @@
 import React from 'react';
 import web from './imagenes/web.png';
-
+import './Estilo.css';
 
 export const Curso = (props) => (
     <div className="App">

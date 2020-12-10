@@ -1,7 +1,7 @@
 import React from 'react'
 import Validador from './Validador';
 import validador from './imagenes/validador.png';
-
+import './Estilo.css';
 
 function validate() {
     return (

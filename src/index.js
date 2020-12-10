@@ -10,7 +10,8 @@ import Validador from './Header';
 import Formulario from './Formulario';
 import { Rss } from './Rss';
 import { Curso } from './Curso';
-import 'index.css';
+import './Estilo.css';
+import './inicio.css';
 
 const Wrapper = styled.div`
   display: flex;

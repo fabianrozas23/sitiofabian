@@ -7,7 +7,6 @@ import github from './imagenes/github.png';
 import azure from './imagenes/azure.png';
 import curso from './imagenes/curso.png';
 
-
 export const Rss = () => (
   <div className="App">
     <div className="new-line"><img src={redes} alt="Redes sociales" className="line-jump"/></div>
