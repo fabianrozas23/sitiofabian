@@ -17,6 +17,13 @@ export const Curso = (props) => (
             de un sitio web. Esta asignatura es una de mis favoritas por que puedo crear y practicar
             para aprender cada dia mas.
          </p>
+            <p>Me ha gustado mucho la forma en que se llevarón las clases y todas las herramientas que 
+                tuvimos para poder desarrollar y aprender. Además que las clases pudiesen quedar grabadas 
+                con demostraciones realizadas por el profesor, hizo mucho más fácil el manejo y el entendimiento
+                de cada uno de los componentes del curso.
+            </p>
+            <p>A continuación se mostrarán los puntos fundamentales que se vieron en cada una de las asignaturas.</p>
+
         <h2>Desarrollo Web</h2>
          <p>
          El objetivo es que al finalizar el curso, el alumno pueda comprender los lenguajes y librerías 
