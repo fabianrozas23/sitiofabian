@@ -28,23 +28,23 @@ ReactDOM.render(
     <Wrapper>
       <HeaderMenu
         onItemClick={item => this.onItemClick(item)}
-        items={[
-          ["Inicio", "/"],
+        items={
+          ["Inicio", "/Inicio"],
           ["Validador", "/Validador"],
           ["Formulario", "/Formulario"],
           ["Curso", "/Curso"],
-          ["Redes sociales", "/Rss"]
-        ]}
+          ["CovidPest", "/CovidPest"]
+        }
         headerIcon={"compass outline"}
       />
       <Divider />
       <Content>
         <Switch>
-          <Route path="/" exact component={Inicio} />
+          <Route path="/Inicio" exact component={Inicio} />
           <Route path="/Validador" component={Validador} />
           <Route path="/Formulario" component={Formulario} />
           <Route path="/Curso" component={Curso} />
-          <Route component={Rss} />
+          <Route path="/CovidPest" component={Rss} />
         </Switch>
       </Content>
       <Footer />
