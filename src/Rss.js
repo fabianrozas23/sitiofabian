@@ -1,5 +1,5 @@
 import React from 'react';
-import redes from './imagenes/covidperson.png';
+import covidperson from './imagenes/covidperson.png';
 import insta from './imagenes/insta.png';
 import face from './imagenes/face.png';
 import instafotos from './imagenes/instafotos.png';

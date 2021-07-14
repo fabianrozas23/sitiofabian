@@ -1,5 +1,5 @@
 import React from 'react';
-import yo from './imagenes/pelea.png';
+import pelea from './imagenes/pelea.png';
 import './inicio.css';
 
 export const Inicio = (props) => (
