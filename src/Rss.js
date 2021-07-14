@@ -1,5 +1,5 @@
 import React from 'react';
-import redes from './imagenes/redes.png';
+import redes from './imagenes/covidperson.png';
 import insta from './imagenes/insta.png';
 import face from './imagenes/face.png';
 import instafotos from './imagenes/instafotos.png';
@@ -9,7 +9,7 @@ import curso from './imagenes/curso.png';
 
 export const Rss = () => (
   <div className="App">
-    <div className="new-line"><img src={redes} alt="Redes sociales" className="line-jump"/></div>
+    <div className="new-line"><img src={covidperson} alt="Redes sociales" className="line-jump"/></div>
     <h1>PERSONAJE COVID PEST</h1>
     <div className="container">
       <div className="centering">

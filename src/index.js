@@ -30,9 +30,9 @@ ReactDOM.render(
         onItemClick={item => this.onItemClick(item)}
         items={[
           ["Inicio", "/"],
-          ["Validador", "/Validador"],
-          ["Formulario", "/Formulario"],
-          ["Curso", "/Curso"],
+          ["MagnaWerwt", "/Validador"],
+          ["ElasticPerson", "/Formulario"],
+          ["ChoroPortenho", "/Curso"],
           ["CovidPest", "/CovidPest"]
         ]}
         headerIcon={"compass outline"}
