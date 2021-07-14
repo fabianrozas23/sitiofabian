@@ -4,7 +4,7 @@ import './inicio.css';
 
 export const Inicio = (props) => (
     <div className="App">
-    <div ><img src={pelea} alt= 'imagen del creador' height= '700'  width= '400' centered />
+    <div ><img src={pelea} alt= 'imagen del creador' height= '330'  width= '500' centered />
     </div>
     <h1 className="new-line">Bienvenidos a Extreme Fighter</h1>
     <div className="container">
